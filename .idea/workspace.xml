@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ed0729c-7c77-4bde-b5bf-b34cb07e3e97" name="Changes" comment="" />
+    <list default="true" id="4ed0729c-7c77-4bde-b5bf-b34cb07e3e97" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +138,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="2KUgqemNANOM3AZ3nkV1IhSgx3J" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -174,7 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674034767772</updated>
       <workItem from="1674034777556" duration="7215000" />
-      <workItem from="1674297198691" duration="5803000" />
+      <workItem from="1674297198691" duration="6159000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1674040591172</created>
