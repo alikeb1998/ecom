@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use \App\Http\Livewire\HomeComponent;
+use \App\Http\Livewire;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +18,7 @@ use \App\Http\Livewire\HomeComponent;
 //Route::get('/', function () {
 //    return view('welcome');
 //});
- Route::get('/',HomeComponent ::class);
+ Route::get('/',Livewire\HomeComponent ::class);
+ Route::get('/checkOut',Livewire\CheckoutComponent ::class);
+ Route::get('/cart',Livewire\CartComponent ::class);
+ Route::get('/shop',Livewire\ShopComponent ::class);
