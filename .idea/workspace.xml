@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ed0729c-7c77-4bde-b5bf-b34cb07e3e97" name="Changes" comment="login an auth user and admin bugs fixed.&#10;page modified">
-      <change afterPath="$PROJECT_DIR$/public/assets/images/Laptop-banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/laptop-banner-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/laptop-banner-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/laptop-banner-4.jpg" afterDir="false" />
+    <list default="true" id="4ed0729c-7c77-4bde-b5bf-b34cb07e3e97" name="Changes" comment="login and user custom layout added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/ShopComponent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/ShopComponent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/shop-component.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/shop-component.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +194,7 @@
       <workItem from="1674361056587" duration="1624000" />
       <workItem from="1674645516344" duration="1349000" />
       <workItem from="1674648377392" duration="9487000" />
-      <workItem from="1674809927075" duration="2171000" />
+      <workItem from="1674809927075" duration="6710000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1674040591172</created>
@@ -234,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674658493368</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="login and user custom layout added.">
+      <created>1674812430146</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674812430147</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +261,7 @@
     <MESSAGE value="fixup! a" />
     <MESSAGE value="." />
     <MESSAGE value="login an auth user and admin bugs fixed.&#10;page modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="login an auth user and admin bugs fixed.&#10;page modified" />
+    <MESSAGE value="login and user custom layout added." />
+    <option name="LAST_COMMIT_MESSAGE" value="login and user custom layout added." />
   </component>
 </project>
