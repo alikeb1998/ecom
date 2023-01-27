@@ -4,602 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ed0729c-7c77-4bde-b5bf-b34cb07e3e97" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Admin/AdminDashboardComponent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/User/UserDashboardComponent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/AuthAdmin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/admin/admin-dashboard-component.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/user/user-dashboard-component.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Common/BitArray.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Common/BitMatrix.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Common/BitUtils.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Common/CharacterSetEci.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Common/EcBlock.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Common/EcBlocks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Common/ErrorCorrectionLevel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Common/FormatInformation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Common/Mode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Common/ReedSolomonCodec.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Common/Version.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Encoder/BlockPair.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Encoder/ByteMatrix.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Encoder/Encoder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Encoder/MaskUtil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Encoder/MatrixUtil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Encoder/QrCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Exception/ExceptionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Exception/InvalidArgumentException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Exception/OutOfBoundsException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Exception/RuntimeException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Exception/UnexpectedValueException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Exception/WriterException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Color/Alpha.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Color/Cmyk.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Color/ColorInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Color/Gray.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Color/Rgb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Eye/CompositeEye.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Eye/EyeInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Eye/ModuleEye.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Eye/SimpleCircleEye.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Eye/SquareEye.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Image/EpsImageBackEnd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImageBackEndInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Image/ImagickImageBackEnd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Image/SvgImageBackEnd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Image/TransformationMatrix.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/ImageRenderer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Module/DotsModule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Module/EdgeIterator/Edge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Module/EdgeIterator/EdgeIterator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Module/ModuleInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Module/RoundnessModule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Module/SquareModule.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Path/Close.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Path/Curve.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Path/EllipticArc.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Path/Line.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Path/Move.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Path/OperationInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/Path/Path.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/PlainTextRenderer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/RendererInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/RendererStyle/EyeFill.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/RendererStyle/Fill.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/RendererStyle/Gradient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/RendererStyle/GradientType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Renderer/RendererStyle/RendererStyle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/src/Writer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/test/Common/BitArrayTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/test/Common/BitMatrixTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/test/Common/BitUtilsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/test/Common/ErrorCorrectionLevelTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/test/Common/FormatInformationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/test/Common/ModeTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/test/Common/ReedSolomonCodecTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/test/Common/VersionTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/test/Encoder/EncoderTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/test/Encoder/MaskUtilTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/test/Encoder/MatrixUtilTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/test/Integration/ImagickRenderingTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/test/Integration/__snapshots__/files/ImagickRenderingTest__testGenericQrCode__1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bacon/bacon-qr-code/test/Integration/__snapshots__/files/ImagickRenderingTest__testIssue79__1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/src/AbstractEnum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/src/EnumMap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/src/Exception/CloneNotSupportedException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/src/Exception/ExceptionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/src/Exception/ExpectationException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/src/Exception/IllegalArgumentException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/src/Exception/MismatchException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/src/Exception/SerializeNotSupportedException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/src/Exception/UnserializeNotSupportedException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/src/NullValue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/test/AbstractEnumTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/test/EnumMapTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/test/NullValueTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/test/Planet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/dasprid/enum/test/WeekDay.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/.github/workflows/php-cs-fixer.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/.github/workflows/test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/.php_cs.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/export.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/raw/Crawlers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/raw/Crawlers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/raw/Exclusions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/raw/Exclusions.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/raw/Headers.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/raw/Headers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/src/CrawlerDetect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/src/Fixtures/AbstractProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/src/Fixtures/Crawlers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/src/Fixtures/Exclusions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect/src/Fixtures/Headers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jenssegers/agent/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jenssegers/agent/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jenssegers/agent/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jenssegers/agent/src/Agent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jenssegers/agent/src/AgentServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/jenssegers/agent/src/Facades/Agent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/config/fortify.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/database/migrations/2014_10_12_200000_add_two_factor_columns_to_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/routes/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/AttemptToAuthenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/CompletePasswordReset.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/ConfirmPassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/ConfirmTwoFactorAuthentication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/DisableTwoFactorAuthentication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/EnableTwoFactorAuthentication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/EnsureLoginIsNotThrottled.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/GenerateNewRecoveryCodes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/PrepareAuthenticatedSession.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Actions/RedirectIfTwoFactorAuthenticatable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/ConfirmPasswordViewResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/CreatesNewUsers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/FailedPasswordConfirmationResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/FailedPasswordResetLinkRequestResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/FailedPasswordResetResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/FailedTwoFactorLoginResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/LockoutResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/LoginResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/LoginViewResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/LogoutResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/PasswordConfirmedResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/PasswordResetResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/PasswordUpdateResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/ProfileInformationUpdatedResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/RecoveryCodesGeneratedResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/RegisterResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/RegisterViewResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/RequestPasswordResetLinkViewResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/ResetPasswordViewResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/ResetsUserPasswords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/SuccessfulPasswordResetLinkRequestResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/TwoFactorAuthenticationProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/TwoFactorChallengeViewResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/TwoFactorConfirmedResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/TwoFactorDisabledResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/TwoFactorEnabledResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/TwoFactorLoginResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/UpdatesUserPasswords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/UpdatesUserProfileInformation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/VerifyEmailResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Contracts/VerifyEmailViewResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Events/RecoveryCodeReplaced.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Events/RecoveryCodesGenerated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Events/TwoFactorAuthenticationChallenged.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Events/TwoFactorAuthenticationConfirmed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Events/TwoFactorAuthenticationDisabled.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Events/TwoFactorAuthenticationEnabled.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Events/TwoFactorAuthenticationEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Features.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Fortify.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/FortifyServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/AuthenticatedSessionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/ConfirmablePasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/ConfirmedPasswordStatusController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/ConfirmedTwoFactorAuthenticationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/EmailVerificationNotificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/EmailVerificationPromptController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/NewPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/PasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/PasswordResetLinkController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/ProfileInformationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/RecoveryCodeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/RegisteredUserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/TwoFactorAuthenticatedSessionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/TwoFactorAuthenticationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/TwoFactorQrCodeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/TwoFactorSecretKeyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Controllers/VerifyEmailController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Requests/LoginRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Requests/TwoFactorLoginRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Requests/VerifyEmailRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/FailedPasswordConfirmationResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/FailedPasswordResetLinkRequestResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/FailedPasswordResetResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/FailedTwoFactorLoginResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/LockoutResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/LoginResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/LogoutResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/PasswordConfirmedResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/PasswordResetResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/PasswordUpdateResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/ProfileInformationUpdatedResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/RecoveryCodesGeneratedResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/RegisterResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/SimpleViewResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/SuccessfulPasswordResetLinkRequestResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/TwoFactorConfirmedResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/TwoFactorDisabledResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/TwoFactorEnabledResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/TwoFactorLoginResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Http/Responses/VerifyEmailResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/LoginRateLimiter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/RecoveryCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/Rules/Password.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/TwoFactorAuthenticatable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/src/TwoFactorAuthenticationProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/CreateNewUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/FortifyServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/PasswordValidationRules.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/ResetUserPassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/UpdateUserPassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/UpdateUserProfileInformation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/fortify/stubs/fortify.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/config/jetstream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/database/factories/TeamFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/database/migrations/2020_05_21_100000_create_teams_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/database/migrations/2020_05_21_200000_create_team_user_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/database/migrations/2020_05_21_300000_create_team_invitations_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/action-message.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/action-section.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/application-logo.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/application-mark.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/authentication-card-logo.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/authentication-card.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/banner.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/checkbox.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/confirmation-modal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/confirms-password.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/danger-button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/dialog-modal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/dropdown-link.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/dropdown.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/form-section.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/input-error.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/input.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/label.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/modal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/nav-link.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/responsive-nav-link.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/secondary-button.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/section-border.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/section-title.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/switchable-team.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/validation-errors.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/components/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/resources/views/mail/team-invitation.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/routes/inertia.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/routes/livewire.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Actions/UpdateTeamMemberRole.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Actions/ValidateTeamDeletion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/ConfirmsPasswords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Console/InstallCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Contracts/AddsTeamMembers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Contracts/CreatesTeams.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Contracts/DeletesTeams.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Contracts/DeletesUsers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Contracts/InvitesTeamMembers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Contracts/RemovesTeamMembers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Contracts/UpdatesTeamNames.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Events/AddingTeam.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Events/AddingTeamMember.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Events/InvitingTeamMember.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Events/RemovingTeamMember.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Events/TeamCreated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Events/TeamDeleted.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Events/TeamEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Events/TeamMemberAdded.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Events/TeamMemberRemoved.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Events/TeamMemberUpdated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Events/TeamUpdated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Features.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/HasProfilePhoto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/HasTeams.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/CurrentTeamController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Inertia/ApiTokenController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Inertia/Concerns/ConfirmsTwoFactorAuthentication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Inertia/CurrentUserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Inertia/OtherBrowserSessionsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Inertia/PrivacyPolicyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Inertia/ProfilePhotoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Inertia/TeamController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Inertia/TeamMemberController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Inertia/TermsOfServiceController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Inertia/UserProfileController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Livewire/ApiTokenController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Livewire/PrivacyPolicyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Livewire/TeamController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Livewire/TermsOfServiceController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/Livewire/UserProfileController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Controllers/TeamInvitationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Livewire/ApiTokenManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Livewire/CreateTeamForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Livewire/DeleteTeamForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Livewire/DeleteUserForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Livewire/LogoutOtherBrowserSessionsForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Livewire/NavigationMenu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Livewire/TeamMemberManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Livewire/TwoFactorAuthenticationForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Livewire/UpdatePasswordForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Livewire/UpdateProfileInformationForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Livewire/UpdateTeamNameForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Middleware/AuthenticateSession.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Http/Middleware/ShareInertiaData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/InertiaManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/InteractsWithBanner.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Jetstream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/JetstreamServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Mail/TeamInvitation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Membership.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/OwnerRole.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/RedirectsActions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Rules/Role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/Team.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/src/TeamInvitation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Actions/Fortify/CreateNewUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Actions/Fortify/CreateNewUserWithTeams.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Actions/Fortify/UpdateUserProfileInformation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Actions/Jetstream/AddTeamMember.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Actions/Jetstream/CreateTeam.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Actions/Jetstream/DeleteTeam.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Actions/Jetstream/DeleteUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Actions/Jetstream/DeleteUserWithTeams.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Actions/Jetstream/InviteTeamMember.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Actions/Jetstream/RemoveTeamMember.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Actions/Jetstream/UpdateTeamName.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Models/Membership.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Models/Team.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Models/TeamInvitation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Models/UserWithTeams.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Policies/TeamPolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Providers/JetstreamServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/app/Providers/JetstreamWithTeamsServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/config/jetstream.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/app/Http/Middleware/HandleInertiaRequests.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/ActionMessage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/ActionSection.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/ApplicationLogo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/ApplicationMark.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/AuthenticationCard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/AuthenticationCardLogo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/Banner.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/Checkbox.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/ConfirmationModal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/ConfirmsPassword.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/DangerButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/DialogModal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/Dropdown.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/DropdownLink.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/FormSection.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/InputError.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/InputLabel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/Modal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/NavLink.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/PrimaryButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/ResponsiveNavLink.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/SecondaryButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/SectionBorder.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/SectionTitle.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/TextInput.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Components/Welcome.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Layouts/AppLayout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/API/Index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/API/Partials/ApiTokenManager.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Auth/ConfirmPassword.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Auth/ForgotPassword.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Auth/Login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Auth/Register.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Auth/ResetPassword.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Auth/TwoFactorChallenge.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Auth/VerifyEmail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Dashboard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/PrivacyPolicy.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Profile/Partials/DeleteUserForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Profile/Partials/LogoutOtherBrowserSessionsForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Profile/Partials/TwoFactorAuthenticationForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Profile/Show.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Teams/Create.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Teams/Partials/CreateTeamForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Teams/Partials/DeleteTeamForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Teams/Partials/TeamMemberManager.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Teams/Partials/UpdateTeamNameForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Teams/Show.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/TermsOfService.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/Pages/Welcome.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/js/ssr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/resources/views/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/inertia/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/app/View/Components/AppLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/app/View/Components/GuestLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/api/api-token-manager.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/api/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/auth/confirm-password.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/auth/forgot-password.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/auth/reset-password.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/auth/two-factor-challenge.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/auth/verify-email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/dashboard.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/layouts/guest.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/navigation-menu.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/policy.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/profile/delete-user-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/profile/logout-other-browser-sessions-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/profile/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/profile/two-factor-authentication-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/profile/update-password-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/profile/update-profile-information-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/teams/create-team-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/teams/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/teams/delete-team-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/teams/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/teams/team-member-manager.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/teams/update-team-name-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/resources/views/terms.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/livewire/vite.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/AuthenticationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/EmailVerificationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/ExampleUnitTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/PasswordConfirmationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/PasswordResetTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/Pest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/RegistrationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/ApiTokenPermissionsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/BrowserSessionsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/CreateApiTokenTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/CreateTeamTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/DeleteAccountTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/DeleteApiTokenTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/DeleteTeamTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/InviteTeamMemberTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/LeaveTeamTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/ProfileInformationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/RemoveTeamMemberTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/TwoFactorAuthenticationSettingsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/UpdatePasswordTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/UpdateTeamMemberRoleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/inertia/UpdateTeamNameTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/ApiTokenPermissionsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/BrowserSessionsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/CreateApiTokenTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/CreateTeamTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/DeleteAccountTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/DeleteApiTokenTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/DeleteTeamTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/InviteTeamMemberTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/LeaveTeamTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/ProfileInformationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/RemoveTeamMemberTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/TwoFactorAuthenticationSettingsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/UpdatePasswordTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/UpdateTeamMemberRoleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/pest-tests/livewire/UpdateTeamNameTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/resources/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/resources/markdown/policy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/resources/markdown/terms.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/AuthenticationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/EmailVerificationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/PasswordConfirmationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/PasswordResetTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/RegistrationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/ApiTokenPermissionsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/BrowserSessionsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/CreateApiTokenTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/CreateTeamTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/DeleteAccountTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/DeleteApiTokenTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/DeleteTeamTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/InviteTeamMemberTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/LeaveTeamTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/ProfileInformationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/RemoveTeamMemberTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/TwoFactorAuthenticationSettingsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/UpdatePasswordTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/UpdateTeamMemberRoleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/inertia/UpdateTeamNameTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/ApiTokenPermissionsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/BrowserSessionsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/CreateApiTokenTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/CreateTeamTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/DeleteAccountTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/DeleteApiTokenTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/DeleteTeamTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/InviteTeamMemberTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/LeaveTeamTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/ProfileInformationTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/RemoveTeamMemberTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/TwoFactorAuthenticationSettingsTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/UpdatePasswordTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/UpdateTeamMemberRoleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/laravel/jetstream/stubs/tests/livewire/UpdateTeamNameTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding/src/Base32.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding/src/Base32Hex.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding/src/Base64.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding/src/Base64DotSlash.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding/src/Base64DotSlashOrdered.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding/src/Base64UrlSafe.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding/src/Binary.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding/src/EncoderInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding/src/Encoding.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding/src/Hex.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding/src/RFC4648.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Exceptions/Contracts/Google2FA.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Exceptions/Contracts/IncompatibleWithGoogleAuthenticator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Exceptions/Contracts/InvalidAlgorithm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Exceptions/Contracts/InvalidCharacters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Exceptions/Contracts/SecretKeyTooShort.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Exceptions/Google2FAException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Exceptions/IncompatibleWithGoogleAuthenticatorException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Exceptions/InvalidAlgorithmException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Exceptions/InvalidCharactersException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Exceptions/SecretKeyTooShortException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Google2FA.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Support/Base32.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Support/Constants.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/pragmarx/google2fa/src/Support/QRCode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/larave.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larave.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="4ed0729c-7c77-4bde-b5bf-b34cb07e3e97" name="Changes" comment="login an auth user and admin bugs fixed.&#10;page modified">
+      <change afterPath="$PROJECT_DIR$/public/assets/images/Laptop-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/laptop-banner-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/laptop-banner-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/laptop-banner-4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/home-component.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/home-component.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/carbon" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/carbon" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/patch-type-declarations" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/patch-type-declarations" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/php-parse" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/php-parse" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/phpunit" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/phpunit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/pint" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/pint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/psysh" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/psysh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/sail" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/sail" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/var-dump-server" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/var-dump-server" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/doctrine/deprecations" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -748,22 +162,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/xampp/htdocs/larave",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "web-ide.project.structure",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/xampp/htdocs/larave&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;web-ide.project.structure&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -782,7 +196,8 @@
       <workItem from="1674297198691" duration="7535000" />
       <workItem from="1674361056587" duration="1624000" />
       <workItem from="1674645516344" duration="1349000" />
-      <workItem from="1674648377392" duration="9137000" />
+      <workItem from="1674648377392" duration="9487000" />
+      <workItem from="1674809927075" duration="2171000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1674040591172</created>
@@ -812,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674304748417</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="login an auth user and admin bugs fixed.&#10;page modified">
+      <created>1674658493368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674658493368</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -834,6 +256,7 @@
     <MESSAGE value="a" />
     <MESSAGE value="fixup! a" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="login an auth user and admin bugs fixed.&#10;page modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="login an auth user and admin bugs fixed.&#10;page modified" />
   </component>
 </project>
